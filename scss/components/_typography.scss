@@ -159,8 +159,8 @@ h4,
 h5,
 h6,
 p,
-td,
-th,
+// td,
+// th,
 a {
   color: $global-font-color;
   font-family: $body-font-family;
@@ -213,8 +213,9 @@ h6 {
 body,
 table.body,
 p,
-td,
-th {
+// td,
+//th
+{
   font-size: $global-font-size;
   line-height: $body-line-height;
 }
@@ -299,7 +300,7 @@ pre {
 // Horizontal rule
 table.hr {
   width: 100%;
-  
+
   th {
     height: 0;
     max-width: $hr-width;
